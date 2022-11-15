@@ -16,12 +16,32 @@ body {
 h1, h2, h3, p, ul {
   margin-top: 0;
   margin-bottom: 0;
+  
+  
 }
 .container {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
   outline: 2px solid tomato;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.ideology-title.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .list-none {
@@ -36,6 +56,7 @@ h1, h2, h3, p, ul {
 
 .header-list {
   padding: 0;
+  margin: 0;
 }
 
 .header-link {
@@ -63,6 +84,7 @@ h1, h2, h3, p, ul {
   letter-spacing: 0.03em;
   color: var(--fourth-color);
   text-decoration: none;
+
 }
 
 .logo-header {
@@ -73,8 +95,10 @@ h1, h2, h3, p, ul {
   color: var(--first-color);
 }
 
+
 .navigation-list {
   padding: 0;
+  margin: 0;
 }
 
 .nav-link {
@@ -101,9 +125,9 @@ h1, h2, h3, p, ul {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-bottom: 30px;
   color: var(--first-color);
 }
 
@@ -118,6 +142,11 @@ h1, h2, h3, p, ul {
   border-radius: 4px;
   color: var(--first-color);
   border: none;
+}
+
+.section-buttons {
+  padding: 0;
+  margin-bottom: 50px;
 }
 
 .section-button {
@@ -137,11 +166,20 @@ h1, h2, h3, p, ul {
   background-color: var(--fourth-color);
 }
 
+.section-list {
+  padding: 0;
+}
+
+.section-list img {
+  margin-bottom: 20px;
+}
+
 .section-list h3 {
   font-size: 18px;
   line-height: 2.00;
   letter-spacing: 0.06em;
   color: var(--second-color);
+  margin-bottom: 4px;
 }
 
 .section-list p {
@@ -153,16 +191,20 @@ h1, h2, h3, p, ul {
 
 /*ideology*/
 
+
+
 .ideology-subtitle {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--second-color);
+  margin-bottom: 10px;
 }
 
 .ideology-list {
   padding: 0;
+  margin-bottom: 0;
 }
 
 .ideology-list p {
@@ -170,11 +212,13 @@ h1, h2, h3, p, ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--third-color);
+  margin-bottom: 0;
 }
 /*work*/
 
 .work-list {
   padding: 0;
+  margin: 0;
 }
 
 
@@ -185,6 +229,7 @@ h1, h2, h3, p, ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-color);
+  margin-bottom: 50px;
 }
 
 /* team */
@@ -196,6 +241,7 @@ line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
+margin-bottom: 50px;
 }
 
 .team {
@@ -204,6 +250,7 @@ color: #212121;
 
 .team-list {
   padding: 0;
+
 }
 
 .team-list h3 {
@@ -221,16 +268,20 @@ color: #212121;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--third-color);
+  
 }
 
 /*footer*/
 .footer {
   background-color: var(--fifth-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .adress-list {
   padding: 0;
 }
+
 
 .adress-map {
   text-decoration: none;

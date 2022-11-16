@@ -297,15 +297,11 @@ img {
 
 .work-list {
   display: flex;
+  justify-content: space-between;
 }
 
-.work-list .item {
-  margin-right: 30px;
-}
 
-.work-list .item:last-child {
-  margin-right: 0px;
-}
+
 
 .work-title {
   font-size: 36px;

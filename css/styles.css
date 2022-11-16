@@ -13,11 +13,16 @@ body {
   --sixth-color: #f5f4fa;
 }
 
-p, h1, h2, h3, h4 {
+p,
+h1,
+h2,
+h3,
+h4 {
   margin: 0px;
 }
 
-ul, ol {
+ul,
+ol {
   margin: 0px;
   padding-left: 0px;
 }
@@ -69,7 +74,6 @@ img {
 .main-nav {
   display: flex;
   align-items: center;
-
 }
 
 .header-list {
@@ -112,9 +116,6 @@ img {
   color: var(--fourth-color);
   text-decoration: none;
   display: block;
-  
-  
-
 }
 
 .footer-logo {
@@ -126,7 +127,6 @@ img {
   text-decoration: none;
   display: block;
   margin-bottom: 20px;
-
 }
 
 .logo-header {
@@ -137,7 +137,6 @@ img {
   color: var(--first-color);
 }
 
-
 .navigation-list {
   margin-left: auto;
 
@@ -145,8 +144,7 @@ img {
 }
 
 .navigation-list .item + .item {
- margin-left: 50px;
-  
+  margin-left: 50px;
 }
 
 .nav-link {
@@ -177,13 +175,12 @@ img {
   text-transform: uppercase;
   margin-bottom: 30px;
   color: var(--first-color);
-
 }
 
 .hero-button {
   font-weight: 700;
   font-size: 16px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   line-height: 1.88;
   letter-spacing: 0.06em;
   background-color: var(--fourth-color);
@@ -202,7 +199,7 @@ img {
 }
 
 .section-button {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 1.62;
@@ -215,7 +212,6 @@ img {
 .section-buttons .item:not(:last-child) {
   margin-right: 8px;
 }
-
 
 .section-button:hover,
 .section-button:focus {
@@ -238,11 +234,9 @@ img {
   margin-bottom: 0px;
 }
 
-
 .section-list .item:nth-child(3n) {
   margin-right: 0px;
 }
-
 
 .section-list img {
   margin-bottom: 20px;
@@ -250,7 +244,7 @@ img {
 
 .section-list h3 {
   font-size: 18px;
-  line-height: 2.00;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--second-color);
   margin-bottom: 4px;
@@ -279,10 +273,7 @@ img {
 }
 
 .ideology-list {
-  
   display: flex;
-
-  
 }
 
 .ideology-list .item {
@@ -292,7 +283,6 @@ img {
 .ideology-list .item:not(:last-child) {
   margin-right: 30px;
 }
-
 
 .ideology-list p {
   font-size: 14px;
@@ -305,8 +295,8 @@ img {
 }
 /*work*/
 
-.work-list { 
-display: flex;  
+.work-list {
+  display: flex;
 }
 
 .work-list .item {
@@ -329,13 +319,13 @@ display: flex;
 /* team */
 
 .team-title {
-  font-family: 'Roboto';
-font-size: 36px;
-line-height: 1.16;
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
-margin-bottom: 50px;
+  font-family: "Roboto";
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 50px;
 }
 
 .team {
@@ -344,7 +334,6 @@ margin-bottom: 50px;
 
 .team-list {
   padding: 0;
-
 }
 
 .teammate {
@@ -367,10 +356,7 @@ margin-bottom: 50px;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--third-color);
-  
 }
-
-
 
 /*footer*/
 .footer {
@@ -382,7 +368,6 @@ margin-bottom: 50px;
 .adress-list {
   padding: 0;
 }
-
 
 .adress-map {
   text-decoration: none;

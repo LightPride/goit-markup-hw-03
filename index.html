@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Студія</title>
   </head>
@@ -124,25 +125,41 @@
           <div class="container">
           <h2 class="team-title">Наша команда</h2>
           <ul class="team-list list-none">
-            <li>
-              <img src="./images/img1.jpg" alt="працівник" width="270" />
-              <h3 class="teammate">Ігор Дем'яненко</h3>
-              <p>Product Designer</p>
+            <li class="item">
+              <div class="team-card">
+                <img src="./images/img1.jpg" alt="працівник" width="270" />
+                <div class="team-content">
+                  <h3 class="teammate">Ігор Дем'яненко</h3>
+                  <p>Product Designer</p>
+                </div>
+              </div>
             </li>
-            <li>
-              <img src="./images/img2.jpg" alt="працівник" width="270" />
-              <h3 class="teammate">Ольга Рєпіна</h3>
-              <p>Frontend Developer</p>
+            <li class="item">
+              <div class="team-card">
+                <img src="./images/img2.jpg" alt="працівник" width="270" />
+                <div class="team-content">
+                  <h3 class="teammate">Ольга Рєпіна</h3>
+                  <p>Frontend Developer</p>
+                </div>
+              </div>
             </li>
-            <li>
-              <img src="./images/img3.jpg" alt="працівник" width="270" />
-              <h3 class="teammate">Микола Тарасов</h3>
-              <p>Marketing</p>
+            <li class="item">
+              <div class="team-card">
+                <img src="./images/img3.jpg" alt="працівник" width="270" />
+                <div class="team-content">
+                  <h3 class="teammate">Микола Тарасов</h3>
+                  <p>Marketing</p>
+                </div>
+              </div>
             </li>
-            <li>
-              <img src="./images/img4.jpg" alt="працівник" width="270" />
-              <h3 class="teammate">Михайло Єрмаков</h3>
-              <p>UI Designer</p>
+            <li class="item">
+              <div class="team-card">
+                <img src="./images/img4.jpg" alt="працівник" width="270" />
+                <div class="team-content">
+                  <h3 class="teammate">Михайло Єрмаков</h3>
+                  <p>UI Designer</p>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
@@ -156,7 +173,7 @@
       >
       <address class="adress">
         <ul class="adress-list list-none">
-          <li>
+          <li class="item">
             <a
               href="https://goo.gl/maps/jvyQEoxhQixPXmaCA"
               target="_blank"
@@ -165,12 +182,12 @@
               >м. Київ, пр-т Лесі Українки, 26<br
             /></a>
           </li>
-          <li>
+          <li class="item">
             <a href="mailto:info@devstudio.com" class="adress-contact"
               >info@devstudio.com</a
             ><br />
           </li>
-          <li>
+          <li class="item">
             <a href="tel:+380961111111" class="adress-contact"
               >+38 096 111 11 11</a
             >

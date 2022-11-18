@@ -43,7 +43,7 @@ img {
 .hero-container {
   margin-left: auto;
   margin-right: auto;
-  padding: 200px 452px;
+  padding: 200px 0px;
 }
 
 .section {
@@ -369,10 +369,11 @@ img {
 
 .team-content {
   padding-bottom: 30px;
+  margin-top: 30px;
 }
 
 .teammate {
-  margin-top: 30px;
+  
   margin-bottom: 10px;
 }
 
